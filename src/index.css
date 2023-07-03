@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@font-face {
+  font-family: "ITCAvantGardeGothicMedium";
+  src: url("./fonts/ITCAvantGardeStd-Bk.otf");
+}
+@font-face {
+  font-family: "ITCAvantGardeGothicBold";
+  src: url("./fonts/ITCAvantGardeStd-Bold.otf");
+}
+
+:root {
+  --font-family: "Open Sans", sans-serif;
+  --header-font-family: "ITCAvantGardeGothicMedium";
+  --icon-font-family: "ITCAvantGardeGothicBold";
+
+  --color-white: #ffffff;
+  --color-bg: #ffffff;
+  --color-footer: #031b34;
+  --color-slide: #19293a;
+  --color-slide-light: #e2e4e6;
+  --color-text: #19293a;
+  --color-subtext: #506473;
+  --color-subHeader: #c0345e;
+  --color-light: #edeff1;
+  --color-text-light: #50647380;
+}

@@ -1,0 +1,11 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-heading {
+  width: 100%;
+  text-align: left;
+
+  margin-bottom: 5rem;
+}
