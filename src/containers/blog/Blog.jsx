@@ -14,8 +14,8 @@ const Blog = () => {
   }, [data]);
 
   return (
-    <div className="blog section__padding">
-      <div className="blog-heading" id="blog">
+    <div className="blog section__padding ">
+      <div className="blog-heading section__padding" id="blog">
         <h1 className="header__text__dark header__font__family__size">
           Kind words
         </h1>

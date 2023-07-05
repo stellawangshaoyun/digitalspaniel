@@ -41,7 +41,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-copyright">
-      <p>Copyright © Digital Spaniel 2019. All rights reserved.</p>
+      <p>Copyright © Digital Spaniel 2023. All rights reserved.</p>
     </div>
   </div>
 );

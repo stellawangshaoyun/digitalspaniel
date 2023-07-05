@@ -3,8 +3,8 @@ import Spaniel from "../../assets/Spaniel01_gradient.png";
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="header-content">
+    <div className="header ">
+      <div className="header-content section__padding">
         <h3>BRAND, DEV, ECOM, MARKETING</h3>
         <h1 className="header__text__dark header__font__family__size">
           We unleash

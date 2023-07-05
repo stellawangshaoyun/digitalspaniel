@@ -7,7 +7,7 @@ import Link from "./Link";
 
 const navbarStyles = (visible, prevScrollPos) => ({
   backgroundColor: visible && prevScrollPos > 0 ? "white" : "transparent",
-  top: visible ? "0" : "-110px",
+  top: visible ? "0" : "-120px",
 });
 
 const Menu = (color) => {
