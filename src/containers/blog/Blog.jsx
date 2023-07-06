@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./blog.css";
-import { Slide } from "../../components";
-import { useGetInfosQuery } from "../../services/infoApi";
-
+ import { Slide } from "../../components";
+// import { useGetInfosQuery } from "../../services/infoApi";
+import data from '../../db.json'
 const Blog = () => {
   const [clients, setClients] = useState([]);
-  const { data } = useGetInfosQuery();
+  // const { data } = useGetInfosQuery();
   useEffect(() => {
     if (data !== undefined) {
-      setClients(data);
-      console.log(data);
+      setClients(data.clients);
+      //console.log(data);
     }
   }, [data]);
 

@@ -35,7 +35,6 @@ a {
   animation: wobble-hor-bottom 0.8s both;
 }
 
-
 @-webkit-keyframes wobble-hor-bottom {
   0%,
   100% {
